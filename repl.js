@@ -41,7 +41,7 @@ process.stdin.on('keypress', function (ch, key) {
     client.stop()
     client.right(0.3);
   } else if (key.name === 'v') {
-    client.animate('flipLeft', 15);
+    client.animate('flipLeft', 15); // because 15 does one flip
   } else if (key.name === 'b') {
     client.animate('flipRight', 15);
   }
